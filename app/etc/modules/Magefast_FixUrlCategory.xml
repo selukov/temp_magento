@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magefast_FixUrlCategory>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Magefast_FixUrlCategory>
+    </modules>
+</config>

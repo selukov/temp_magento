@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magefast_FixUrlCategory>
+            <version>1.1.0</version>
+        </Magefast_FixUrlCategory>
+    </modules>
+    <global>
+		<models>
+			<catalog>
+				<rewrite>
+					<category>Magefast_FixUrlCategory_Model_Category</category>
+				</rewrite>
+			</catalog>
+		</models>
+		<helpers>
+            <fixurlcategory>
+                <class>Magefast_FixUrlCategory_Helper</class>
+            </fixurlcategory>
+        </helpers>
+	</global> 
+</config>
